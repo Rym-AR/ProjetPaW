@@ -1,13 +1,159 @@
-body {
+/* *{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.page{
+  /* background-color: green; 
+  display: flex;
+  flex-direction: row;
 }
+.main-left{
+  /* background-color: #fff; 
+  width: 30%;
+  height: 100vh;
+}
+.barre{
+background-color: rgb(240, 237, 237);
+width: 100%;
+height: 100vh;
+padding: 60px 40px;  
+color: grey;
+}
+.barre h3{
+  /* background-color: #fff; 
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;  
+  margin-top: 20px;
+  width: 80%;
+}
+.barre ul{
+  list-style:inside;
+  list-style:disc;
+  margin-top: 20px;
+  background-color: white;
+}
+.cat{
+ margin: 10px 30px; 
+ cursor: pointer;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ /* font-weight: bold; */
+ /* background-color: pink; 
+}
+.barre input{
+  background-color: rgb(255, 255, 255);
+  /* background-color:black; 
+  width: 150px;
+  font-family:'Times New Roman', Times, serif;
+  border:1px solid rgb(216, 216, 216);
+  /* border-radius: 5px; 
+  outline: none;
+}
+.main-right{
+  /* background-color:black; 
+  width: 80%;
+  height: 100vh;
+}
+.profil{
+  /* background-color: red; 
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.profil .photo{
+  background-color: pink;
+  width: 4%;
+  height: 80%;
+  border-radius: 50%;
+  margin-left: 94%;
+}
+.main{
+  /* background-color: rgb(216, 70, 70); 
+  width: 100%;
+  height: calc(100% - 50px);
+  /* background-color: yellow; 
+} 
+#iconPlus{
+  font-size: 0.9rem;
+  margin-top: 3px;
+} */
+/* ---------------*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.page{
+  /* background-color: green; */
+  display: flex;
+  flex-direction: row;
+}
+.main-left{
+  /* background-color: #fff; */
+  width: 30%;
+  height: 100vh;
+}
+.barre{
+background-color: rgb(240, 237, 237);
+width: 100%;
+height: 100vh;
+padding: 60px 40px;  
+color: grey;
+}
+.barre h3{
+  /* background-color: #fff; */
+  cursor: pointer;
+  display: flex;
+  /* justify-content: space-between;   */
+  margin-top: 20px;
+}
+.barre ul{
+  list-style:inside;
+  list-style:disc;
+  /* margin-top: 20px; */
+  /* background-color: white; */
+}
+.cat{
+ 
+ margin: 10px 30px; 
+ cursor: pointer;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ /* font-weight: bold; */
+ /* background-color: pink; */
+}
+.barre input{
+  background-color: rgb(255, 255, 255);
+  /* background-color:black; */
+  width: 150px;
+  font-family:'Times New Roman', Times, serif;
+  border:1px solid rgb(216, 216, 216);
+  /* border-radius: 5px; */
+  outline: none;
+}
+.main-right{
+  /* background-color:black; */
+  width: 80%;
+  height: 100vh;
+}
+.profil{
+  /* background-color: red; */
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.profil .photo{
+  background-color: pink;
+  width: 4%;
+  height: 80%;
+  border-radius: 50%;
+  margin-left: 94%;
+}
+.main{
+  /* background-color: rgb(216, 70, 70); */
+  width: 100%;
+  height: calc(100% - 50px);
+  /* background-color: yellow; */
+} 
