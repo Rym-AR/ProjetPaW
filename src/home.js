@@ -21,3 +21,21 @@
 //     }
 //   }
 // };
+ //import React from "react";
+//  const transformContenu = (contenu) =>{
+//     const h1=document.createElement("h1");
+//     h1.textContent= contenu;
+//     document.title.appendChild(h1);
+//    };
+// function transformContenu (contenu){
+//     const h1=document.createElement("h1");
+//     h1.textContent= contenu;
+//     document.title.appendChild(h1);
+// }
+function transformContenu(contenu) {
+    const h1 = document.createElement("h1");
+    h1.textContent = contenu;
+    document.title = h1.textContent;
+    
+  }
+  

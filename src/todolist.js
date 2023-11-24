@@ -1,8 +1,12 @@
+//export {transformContenu};
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlus, faTrash } from "@fortawesome/free-solid-svg-icons";
 import { faStar } from "@fortawesome/free-regular-svg-icons";
 import './App.css';
+import transformContenu from './home';
+
+
 const TodoList = () => {  
  const [tasks, setTasks] = useState([]);
  const addTask = () => {
@@ -46,11 +50,17 @@ const handleStarIconClick = (index) => {
       return prevTasks.filter((task, i) => i !== index);
     });
  };
+//  const transformContenu = (contenu) =>{
+//   const h1=document.createElement("h1");
+//   h1.textContent= contenu;
+//   document.title.appendChild(h1);
+//  }
 
  return (
     <div className="TodoList">
       <div className="title">
-        <h1>Personnel</h1>
+        {transformContenu}
+        {/* <h1>{setSelectedCategory}</h1> */}
         <FontAwesomeIcon icon={faPlus} id="iconPlus" onClick={addTask} />
       </div>
 
