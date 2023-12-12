@@ -1,27 +1,22 @@
-*{
+/* *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 body{
-  /* background-color: pink; */
+ 
   border-radius: 10px;
  
 }
 main{
-  /* background-color: pink; */
+  
   width: 100%;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-/* .box{
-  /* background-color: rgb(191, 178, 178); 
-  width: 70%;
-  height: 60vh;
- margin-left: 250px;
-} */
+
 .title{
   width: 80%;
   height: 40px;
@@ -33,20 +28,12 @@ main{
   justify-content: space-between; 
 }
 h1{
-  /* color: grey; */
+  
   display: inline;
 }
-/* .title i{
-  width: 20px;
-  height: 20px;
-  /* background-color: #fff; 
-  /* margin-left: 30px; 
-  font-size: 1.5rem;
-  font-weight: boldER;
-  cursor: pointer;
-} */
+
 .inputsBox{
-  /* background-color: pink; */
+  
   width: 80%;
   margin-left: 100px;
 }
@@ -68,4 +55,74 @@ h1{
 .input i{
   cursor: pointer;
 }
-
+ */
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  /* background-color: pink; */
+  border-radius: 10px;
+ 
+}
+main{
+  /* background-color: pink; */
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.box{
+  /* background-color: rgb(191, 178, 178); */
+  width: 80%;
+  height: 60vh;
+ margin-left: 250px;
+}
+.title{
+  width: 90%;
+  height: 40px;
+  background-image: linear-gradient(100deg,purple,rgb(99, 48, 238));
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+}
+h1{
+  /* color: grey; */
+  display: inline;
+}
+.title i{
+  width: 20px;
+  height: 20px;
+  /* background-color: #fff; */
+  /* margin-left: 30px; */
+  font-size: 1.5rem;
+  font-weight: boldER;
+  cursor: pointer;
+}
+.inputsBox{
+  /* background-color: pink; */
+  width: 100%;
+}
+.inputText{
+  width:80%;
+  height: 50px;
+  border-top: white;
+  border-left: white;
+  border-right: white;
+  border-bottom: rgb(220, 220, 220) 1px solid;
+  outline: none;
+  margin-left: 20px;
+}
+.checkbox{
+  width: 15px;
+  height: 10px;
+  margin-left: 0;
+}
+.input i{
+  cursor: pointer}
+  .space {
+      margin-left: 10px; /* ajustez cette valeur selon vos préférences */
+     }
